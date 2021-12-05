@@ -227,6 +227,14 @@ body {
 	0% { width: 0; }
 	100% { width: 60%; }}
 
+.progress-js{
+	animation: load_js 3s normal forwards;
+}
+
+@keyframes load_js {
+	0% { width: 0; }
+	100% { width: 20%; }}
+
 .progress-cpp {
 	animation: load_cpp 3s normal forwards;
 }
