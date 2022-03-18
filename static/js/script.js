@@ -4,10 +4,6 @@ var computed_style = getComputedStyle(document.body)
 var current_theme = 'dark'
 var icon_bar_out = true
 
-// Create 3 functions
-// function 1 - will call function 2 or 3 depending on what them is currently on
-// function 2 - will change the website to light theme
-// function 3 - will change the wensite to dark theme
 function ChangeTheme() {
 	if (current_theme === 'dark') {
 		current_theme = 'light'

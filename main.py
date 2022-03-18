@@ -1,7 +1,5 @@
 from flask import Flask, render_template
 
-# https://wireframe.cc/T46Ag1
-
 app = Flask(__name__)
 
 
